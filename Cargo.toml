@@ -1,0 +1,12 @@
+[package]
+name = "dragoncurve"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# nannou — creative coding framework (window, draw API, event loop)
+nannou = "0.19"
+gif = "0.14.2"
+ 
+[profile.release]
+opt-level = 3
